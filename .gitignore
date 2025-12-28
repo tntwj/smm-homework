@@ -1,0 +1,18 @@
+# Sistema operativo
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# Editor di testo / IDE
+.vscode/           # Visual Studio Code (opzionale)
+.idea/             # IntelliJ / WebStorm / PyCharm
+*.swp              # Vim
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambienti virtuali
+venv/
+env/
+.env
+.conda/
