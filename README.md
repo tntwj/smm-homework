@@ -1,40 +1,37 @@
 # Statistical and Mathematical Methods for Machine Learning
 
-Benvenuti in questa repository! Qui sono raccolti gli esercizi e le implementazioni pratiche (in formato `.ipynb`) per il corso di **Metodi Matematici e Statistici per il Machine Learning**. 
+This repository contains a collection of Jupyter Notebooks (`.ipynb`) featuring exercises and implementations developed for the **Statistical and Mathematical Methods for Machine Learning** course.
 
-L'obiettivo principale del progetto è approfondire la matematica che sta alla base degli algoritmi di apprendimento automatico, collegando i concetti avanzati all'algebra lineare di base.
+The core objective of this project is to bridge the gap between high-level Machine Learning algorithms and the fundamental Linear Algebra and Calculus concepts studied during a bachelor's degree.
 
-## 📌 Indice dei Contenuti
+## 📌 Project Overview
 
-Il materiale è diviso in macro-aree tematiche che seguono l'evoluzione del corso:
+The repository is structured to follow the progression of the course, moving from optimization theory to practical ML applications.
 
-### 1. Ottimizzazione e Training
-Studio delle tecniche per la risoluzione del *training problem* nei modelli di Machine Learning.
-* **Gradient Descent (GD):** Implementazione dell'algoritmo di discesa del gradiente per la minimizzazione della funzione di costo.
-* **Stochastic Gradient Descent (SGD):** Varianti stocastiche per gestire dataset di grandi dimensioni e migliorare l'efficienza computazionale.
+### 1. Optimization Techniques
+Focus on solving the **training problem** in Machine Learning algorithms by minimizing loss functions.
+* **Gradient Descent (GD):** Implementation of the standard iterative optimization algorithm.
+* **Stochastic Gradient Descent (SGD):** Exploration of stochastic variants designed for efficiency and large-scale datasets.
 
-### 2. Supervised Learning (Apprendimento Supervisionato)
-Implementazione di algoritmi classici con focus sul legame tra implementazione e teoria matematica.
-* **Classification:** Algoritmi per l'assegnazione di etichette a dati in input.
+### 2. Machine Learning Foundations
+Deep dive into the math behind the most effective "simple" ML algorithms:
+* **Supervised Learning:** Focused on **Classification** tasks and how they relate to decision boundaries and linear transformations.
+* **Unsupervised Learning:** Implementation of **Dimensionality Reduction** techniques, understanding how they leverage concepts like SVD (Singular Value Decomposition) and Eigendecomposition.
 
-### 3. Unsupervised Learning (Apprendimento Non Supervisionato)
-Analisi dei dati senza etichette predefinite.
-* **Dimensionality Reduction:** Tecniche per ridurre il numero di variabili (es. PCA) sfruttando concetti di algebra lineare come la decomposizione spettrale o SVD.
+## 🎯 Learning Focus
+Unlike standard black-box implementations, the focus here is on:
+- **Mathematical Depth:** Understanding the "why" behind each step.
+- **Linear Algebra Correlation:** Directly relating implementation logic to vector spaces, projections, and matrix factorizations.
+- **Algorithmic Efficiency:** Comparing different optimization strategies like GD vs. SGD.
 
-## 🎓 Obiettivi Formativi
-Il focus di questi esercizi non è solo il "funzionamento" del codice, ma la **comprensione profonda della matematica**:
-- Come l'algebra lineare (matrici, autovettori, proiezioni) viene usata nella riduzione della dimensionalità.
-- Come il calcolo multivariabile guida l'ottimizzazione degli algoritmi.
+## 🛠️ Requirements
+To run these notebooks, you will need Python and the following scientific libraries:
+* `NumPy` (Linear algebra operations)
+* `Matplotlib` / `Seaborn` (Data visualization)
+* `SciPy` (Optimization and statistics)
+* `Jupyter`
 
-## 🛠️ Requisiti
-Per eseguire i notebook è necessario avere installato Python e le seguenti librerie principali:
-* `numpy`
-* `matplotlib`
-* `scipy`
-* `pandas`
-* `jupyter/notebook`
-
-## 🚀 Come iniziare
-1. Clona la repository:
+## 🚀 Getting Started
+1. Clone the repository:
    ```bash
-   git clone git@github.com:TUO_USERNAME/NOME_REPO.git
+   git clone git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
