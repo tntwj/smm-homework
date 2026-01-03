@@ -16,3 +16,6 @@ venv/
 env/
 .env
 .conda/
+
+# Dati
+.csv
